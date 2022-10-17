@@ -6,6 +6,18 @@
 
 提供了实用的单例bean的管理功能，仅使用了openjx的必要依赖与常用的slf4j、snakeyaml，可以方便地对组件进行管理，并提供了资源加载读取相关接口。
 
+可以直接把这些代码加入到项目中稍作修改就能直接使用（因为代码文件很少），或把zip文件解压后添加到本地仓库中使用，
+
+下面介绍的是后者的使用方法（添加到类路径或maven仓库中使用）
+
+```xml
+<dependency>
+    <groupId>org.nefure</groupId>
+    <artifactId>fxscaffold</artifactId>
+    <version>1.0-ALPHA</version>
+</dependency>
+```
+
 ## 准备工作
 
 注意：当前master分支使用的Java版本为17，依赖openfx版本为11.0.2，ikonli12.3.1，snakeyaml1.33
